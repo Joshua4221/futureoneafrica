@@ -15,6 +15,6 @@ const RegisterSchema = new mongoose.Schema({
 });
 
 const Registered =
-  mongoose.model("Rigister") || mongoose.model("Rigister", RegisterSchema);
+  mongoose.models.Register || mongoose.model("Register", RegisterSchema);
 
 export default Registered;

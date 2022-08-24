@@ -5,6 +5,7 @@ export const SignInArr = [
   {
     type: "email",
     name: "email",
+    id: "email",
     placeholder: "enter your email address",
     classBody: "inputBody",
     classname: "input",
@@ -15,6 +16,7 @@ export const SignInArr = [
   {
     type: "password",
     name: "password",
+    id: "password",
     placeholder: "enter your Password",
     classBody: "inputBody",
     classname: "input",
