@@ -1,5 +1,5 @@
-import Registered from "../db/schema";
-import connectDB from "../db";
+import Registered from "../../universal-components/db/schema";
+import connectDB from "../../universal-components/db";
 
 export default async function handler(req, res) {
   connectDB().catch((err) => console.log(err.message));
