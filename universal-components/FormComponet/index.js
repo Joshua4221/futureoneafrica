@@ -20,7 +20,6 @@ const Form = ({ formArray, theme, handleChange, handleSubmit }) => {
                 <input
                   className={`${item.classname}`}
                   type={item.type}
-                  id={item.id}
                   name={item.name}
                   placeholder={item.placeholder}
                   onChange={handleChange}

@@ -27,21 +27,10 @@ const SignIn = ({ theme }) => {
       .catch((err) => {
         console.log(err);
       });
-    // const res = await fetch(`/api/egister`, {
-    //   method: "POST",
-    //   body: JSON.stringify(data),
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    // });
-
-    // const datas = await res.json();
-    // console.log(datas);
   };
 
   const HandleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
     PostData(formData);
   };
 
